@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#333;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: 10px 40px 10px 10px;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.page-header {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
+
+.section1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sub-section-main {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.sub-section-main img{
+  width: 550px;
+}
+.sub-section2{
+    
+  margin-left: 39px;
+}
+
+.sub-section1-heading,
+.sub-section2-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  width: 80%;
+  background-color: #fff;
+  color: #333;
+  padding: 25px;
+  margin-left: 30px;
+  position:relative;
+  border-radius: 15px;
+}
+
+.pizza-veg,
+.pizza-non-veg {
+  width: 600px;
+  height: 300px;
+  margin: 30px;
+}
